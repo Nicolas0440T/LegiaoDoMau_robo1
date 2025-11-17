@@ -16,13 +16,11 @@ public class legiaoDoMau_robo1 extends TeamRobot {
 
     public void run() {
 
-        // ===== CORES ROXO + VERDE =====
-        setBodyColor(new Color(128, 0, 128)); // Roxo
-        setGunColor(Color.green);             // Verde
-        setRadarColor(Color.green);           // Verde
-        setBulletColor(Color.green);          // Verde
-        setScanColor(Color.green);            // Verde
-        // ==============================
+        setBodyColor(new Color(128, 0, 128)); 
+        setGunColor(Color.green);             
+        setRadarColor(Color.green);           
+        setBulletColor(Color.green);          
+        setScanColor(Color.green);            
 
         setAdjustGunForRobotTurn(true);
         setAdjustRadarForGunTurn(true);
